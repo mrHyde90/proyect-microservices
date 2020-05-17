@@ -13,7 +13,7 @@ dockerpath=wolusiter1990/udacity_project4
 echo "Docker ID and Image: $dockerpath"
 export DOCKER_ID_USER="wolusiter1990"
 docker login
-docker tag udacity_project4 $DOCKER_ID_USER/udacity_project4 
+docker tag wolusiter1990/udacity_project4 $DOCKER_ID_USER/udacity_project4 
 
 # Step 3:
 # Push image to a docker repository
